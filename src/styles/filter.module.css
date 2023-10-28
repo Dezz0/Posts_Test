@@ -1,0 +1,42 @@
+.filtersContainer {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filterByName {
+    border: 1px solid black;
+    padding: 5px;
+}
+.filterByName select {
+    text-align: end;
+}
+
+.favorites input[type="checkbox"] {
+    display: none;
+}
+.isActiveBtn {
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(161, 194, 255);
+}
+.disabledBtn {
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(43, 92, 197);
+    color: white;
+}
+
+.sortContainer {
+    border: 1px solid black;
+    padding: 5px;
+}
+.sortContainer select {
+    text-align: end;
+}

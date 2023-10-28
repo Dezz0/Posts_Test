@@ -1,0 +1,58 @@
+.center {
+    padding-left: calc(50% - 350px);
+    padding-right: calc(50% - 350px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    gap: 5px;
+}
+.newPostBtn {
+    cursor: pointer;
+    border: 1px solid black;
+    max-width: max-content;
+    padding: 8px 15px 8px;
+}
+.newPostBtn span {
+    font-weight: 900;
+}
+.newPostFrom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.addPost {
+    align-self: center;
+    padding: 8px 20px 8px;
+    border: 1px solid black;
+}
+
+.titlePost,
+.authorPost {
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.bodyPost {
+    min-height: 100px;
+    resize: vertical;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.leftSide {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.padding {
+    padding: 5px;
+}

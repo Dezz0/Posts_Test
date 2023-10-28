@@ -1,0 +1,82 @@
+.postContainer {
+    border: 1px solid black;
+    max-width: 700px;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 2px 2px rgb(59, 59, 59);
+}
+
+.post {
+    position: relative;
+}
+
+.headerPost {
+    display: flex;
+    gap: 10px;
+}
+
+.selectField {
+    margin-top: 3px;
+    align-self: flex-start;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    max-width: 70%;
+}
+
+.titleField {
+    margin-bottom: 10px;
+    outline: 1px solid black;
+    width: 70%;
+    padding: 5px 10px 5px;
+}
+
+.headerIcons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.body {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.25rem;
+}
+
+.bodyField {
+    margin-bottom: 20px;
+    outline: 1px solid black;
+    width: 100%;
+    min-height: 100px;
+    resize: vertical;
+    padding: 5px 10px 5px;
+}
+
+.postBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.showButton {
+    cursor: pointer;
+}
+.author {
+    color: rgb(124, 124, 124);
+    flex-grow: 1;
+    text-align: end;
+}
+
+.authorField {
+    outline: 1px solid black;
+    flex-grow: 1;
+    max-width: 70%;
+    padding: 5px 10px 5px;
+}
+
+p::first-letter {
+    text-transform: uppercase;
+}

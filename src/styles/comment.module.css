@@ -1,0 +1,24 @@
+.comments {
+    margin-top: 20px;
+}
+.commentsTitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.comment {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+.authorComment {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.email {
+    color: rgb(124, 124, 124);
+    margin-bottom: 10px;
+}

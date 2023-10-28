@@ -1,0 +1,13 @@
+.trash {
+    cursor: pointer;
+}
+.star {
+    cursor: pointer;
+}
+.activeStar {
+    cursor: pointer;
+    fill: yellow;
+}
+.edit {
+    cursor: pointer;
+}

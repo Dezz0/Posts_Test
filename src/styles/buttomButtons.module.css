@@ -1,0 +1,22 @@
+.hiddenButtons {
+    display: none;
+}
+
+.bottomButtons {
+    position: fixed;
+    top: calc(100vh - 95px);
+    left: calc(50% - 130px);
+    display: flex;
+    gap: 30px;
+}
+
+.deleteBtn,
+.favoritesBtn {
+    padding: 8px 15px 8px;
+    border: 1px solid #032539;
+    border-radius: 5px;
+    background-color: rgb(43, 92, 197);
+    color: #fbf3f2;
+    font-weight: 600;
+    font-size: 15px;
+}
