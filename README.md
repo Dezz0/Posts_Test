@@ -1,4 +1,4 @@
-https://dezz0.github.io/posts/
+https://Dezz0.github.io/Posts_Test
 
 **Требования:**
 
